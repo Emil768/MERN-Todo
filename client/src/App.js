@@ -1,9 +1,12 @@
-import "./App.css";
+import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
+import AuthPage from "./pages/AuthPage/AuthPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>kek</h1>
+      <Navbar />
+      <AuthPage />
     </div>
   );
 }
